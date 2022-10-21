@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Raleway:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    /*
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    */
+}
+
+#myVideo {
+    position: fixed;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+.container h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vh;
+
+}
+
+.container #btns{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container #btns a img{
+    height: 10vh;
+    min-height: 50px;
+    border-radius: 100px;
+    opacity: 0.9;
+}
